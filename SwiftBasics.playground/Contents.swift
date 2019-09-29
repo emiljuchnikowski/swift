@@ -1,12 +1,5 @@
 import Foundation
 
-// constance
-let age = 28
+var age : Int = 30
 
-// variable
-var name = "Emil"
-
-// nie można edytować
-// age = 30
-
-name = "Emil 2"
+let name : String = "Emil"
