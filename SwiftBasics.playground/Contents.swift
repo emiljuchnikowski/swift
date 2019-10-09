@@ -68,3 +68,28 @@ list.insert("Emil3", at: 1) // dodanie elementu w konkretnej pozycji
 list.remove(at: 3) // usunięcie elementu o id
 list.count // ilość elementów
 
+// Loops
+var list4 = ["Emil", "Emil2", "Emil3", "Emil4"]
+
+for _ in 1...10 {
+    print("Test ")
+}
+
+for a in 1...10 {
+    print("Test " + String(a))
+}
+
+for item in list4 {
+    print(item)
+}
+
+var rank = 1
+for item in [5, 7, 8] {
+    print("\(rank). \(item)")
+    rank += 1
+}
+
+for x in 0..<list4.count {
+    print("\(x). \(list4[x])")
+}
+
