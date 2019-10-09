@@ -56,3 +56,15 @@ if (height == 1 || height == 100) && height < 50 {
 } else {
     print("test else")
 }
+
+// Arrays
+var list = ["Emil", "Test"]
+var list2 : [Any] = ["Emil", "Test", 12]
+var list3 = ["Emil", "Test", 12] as [Any]
+
+list[0]
+list.append("Emil2") // dodanie elementu
+list.insert("Emil3", at: 1) // dodanie elementu w konkretnej pozycji
+list.remove(at: 3) // usunięcie elementu o id
+list.count // ilość elementów
+
