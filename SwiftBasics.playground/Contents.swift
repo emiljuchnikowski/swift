@@ -37,3 +37,22 @@ if height > 10 {
 
 var can: Bool = true
 
+// Else, and, or
+if height < 10 && height > 1 {
+    print("Test")
+} else {
+    print("test else")
+}
+
+
+if height == 1 || height == 100 {
+    print("Test")
+} else {
+    print("test else")
+}
+
+if (height == 1 || height == 100) && height < 50 {
+    print("Test")
+} else {
+    print("test else")
+}
