@@ -75,7 +75,7 @@ for _ in 1...10 {
     print("Test ")
 }
 
-for a in 1...10 {
+for a in 1...10_000 {
     print("Test " + String(a))
 }
 
