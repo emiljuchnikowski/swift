@@ -18,3 +18,24 @@ var nicksWords : [String:String] = ["zabang" : "when you fianlly get your code r
 nicksWords["zabang"] // pobieranie wartości
 nicksWords["test1"] = "testVal" // dodawanie i aktualizacja
 nicksWords.removeValue(forKey: "test1") // usuwanie
+
+// Functions
+
+func hello() {
+    print("Hello !")
+}
+
+hello()
+
+func hello2(person : String) {
+    print("Hello \(person)!")
+}
+
+hello2(person: "Nick")
+
+func addTwoNumbers(num1 : Int, num2 : Int) -> Int {
+    print(num1 + num2)
+    return num1 + num2
+}
+
+var c = addTwoNumbers(num1: 1, num2: 3)
