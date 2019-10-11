@@ -39,3 +39,24 @@ func addTwoNumbers(num1 : Int, num2 : Int) -> Int {
 }
 
 var c = addTwoNumbers(num1: 1, num2: 3)
+
+// Optionals
+
+var age : Int? = nil
+
+var name : String? = "Nick"
+
+print(age)
+
+age = 30
+
+print(age)
+
+var age2 = Int("40")
+
+print(age2!) // wymuszanie nie nulla
+
+if let age3 = Int("40") { // tworzy statica i wykonuje warunek jezeli 40 nie jest null
+    print(age3)
+}
+
