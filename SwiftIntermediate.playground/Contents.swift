@@ -60,3 +60,23 @@ if let age3 = Int("40") { // tworzy statica i wykonuje warunek jezeli 40 nie jes
     print(age3)
 }
 
+
+// Classes
+
+class Dog {
+    var name = ""
+    var age = 0
+    var furColor = ""
+    
+    func bark() {
+        print("My name is \(name)")
+    }
+}
+
+var myDog = Dog()
+
+print(myDog.age)
+myDog.age = 8
+
+myDog.bark()
+
